@@ -38,7 +38,8 @@ char* dayOfProgrammer(int year) {
     char *a=malloc(20*sizeof(char));
     memset(a,0,20*sizeof(char));
     if (year == 1918){
-        sprintf(a,"12.09.1800");
+        //sprintf(a,"12.09.1800");
+        sprintf(a,"26.09.1918");
     }
 
         
